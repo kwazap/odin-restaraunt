@@ -1,1 +1,1 @@
-alert('asdas')
+console.log('aaaaaaaaaa');
