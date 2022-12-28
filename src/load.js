@@ -14,6 +14,8 @@ const loadPage = function (params) {
     document.querySelectorAll('button').forEach(button => {
         button.addEventListener('click', switchContent)
     })
+
+    switchContent('Home')
 }
 
 
