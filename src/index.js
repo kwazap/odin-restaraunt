@@ -1,4 +1,4 @@
 import './style.css'
+import {loadPage} from "./load.js"
 
-
-console.log('aaaaaaaaaa');
+loadPage()
