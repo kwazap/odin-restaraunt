@@ -1,6 +1,6 @@
 
 
-const createHome = function () {
+const makeHome = function () {
     
     const home = document.createElement('div')
     home.className = 'home-container'
@@ -23,4 +23,4 @@ const createHome = function () {
     return home
 }
 
-export {createHome}
+export {makeHome}
