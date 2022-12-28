@@ -63,3 +63,27 @@ body, html {
 .credits a:visited {
     color: rgb(255, 247, 200);
 }
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container {
+    margin: 8vh;
+    height: 80%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+    font-size: 1.4rem;
+}
+
+.home-wrapper {
+    margin: 32px;
+    color: rgb(255, 247, 200);
+}
+
+.home-wrapper h2 {
+    color: rgb(255, 247, 200);
+}
