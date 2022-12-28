@@ -140,6 +140,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createHome\": () => (/* binding */ createHome)\n/* harmony export */ });\n\n\nconst createHome = function () {\n    \n    const home = document.createElement('div')\n    home.className = 'home-container'\n\n    const homeWrapper = document.createElement('div')\n    homeWrapper.className = 'home-wrapper'\n    home.appendChild(homeWrapper)\n\n    const homeH2 = document.createElement('h2')\n    homeH2.textContent = 'Best wine and cheese restauraunt ever'\n    homeWrapper.appendChild(homeH2)\n\n    const homeDescript = document.createElement('p')\n    homeDescript.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in gravida lorem. Cras ac volutpat neque. Ut consequat interdum turpis, ut aliquet dui faucibus ac. Etiam dapibus faucibus lectus faucibus suscipit. Aenean congue, elit et faucibus pretium, velit lorem pharetra augue, vel imperdiet turpis sapien porttitor ligula. Mauris at mauris sed urna sodales blandit.'\n    homeWrapper.appendChild(homeDescript)\n\n    home.appendChild(homeWrapper)\n\n\n    return home\n}\n\n\n\n//# sourceURL=webpack://odin-restaraunt/./src/home.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -156,7 +166,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"loadPage\": () => (/* binding */ loadPage)\n/* harmony export */ });\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _content__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./content */ \"./src/content.js\");\n\n\n\nconst loadPage = function (params) {\n    const container = document.querySelector('.content')\n    const header = (0,_header__WEBPACK_IMPORTED_MODULE_0__.makeHeader)()\n    const main = (0,_content__WEBPACK_IMPORTED_MODULE_1__.makeMain)()\n    container.appendChild(header)\n    container.appendChild(main)\n\n}\n\n\n\n\n//# sourceURL=webpack://odin-restaraunt/./src/load.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"loadPage\": () => (/* binding */ loadPage)\n/* harmony export */ });\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _content__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./content */ \"./src/content.js\");\n/* harmony import */ var _switch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./switch */ \"./src/switch.js\");\n\n\n\n\nconst loadPage = function (params) {\n    const container = document.querySelector('.content')\n\n    const header = (0,_header__WEBPACK_IMPORTED_MODULE_0__.makeHeader)()\n    container.appendChild(header)\n\n    const main = (0,_content__WEBPACK_IMPORTED_MODULE_1__.makeMain)()\n    container.appendChild(main)\n\n    document.querySelectorAll('button').forEach(button => {\n        button.addEventListener('click', _switch__WEBPACK_IMPORTED_MODULE_2__.switchContent)\n    })\n}\n\n\n\n\n//# sourceURL=webpack://odin-restaraunt/./src/load.js?");
+
+/***/ }),
+
+/***/ "./src/switch.js":
+/*!***********************!*\
+  !*** ./src/switch.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"switchContent\": () => (/* binding */ switchContent)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\n\nfunction switchContent() {\n    const main = document.querySelector('.main')\n    const mainChild = document.querySelector('.main > *')\n\n    if (mainChild) {\n        mainChild.remove()\n    }\n    \n    switch (this.textContent) {\n        case 'Home':\n            const home = (0,_home__WEBPACK_IMPORTED_MODULE_0__.makeHome)()\n            main.appendChild(home)\n            break;\n    \n        default:\n            break;\n    }\n}\n\n\n\n//# sourceURL=webpack://odin-restaraunt/./src/switch.js?");
 
 /***/ }),
 
