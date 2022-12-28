@@ -33,7 +33,13 @@ body, html {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 247, 200);
     font-size: 1.5rem;
-    margin: 46px 24px 0px 24px;
+}
+
+.nav-wrapper {
+    display: flex;
+    width: min(100%, 300px);
+    justify-content: space-around;
+    margin-top: 48px;
 }
 
 .header button:hover {
