@@ -11,11 +11,15 @@ const makeContact = function () {
 
     const contactHeading = document.createElement('h2')
     contactHeading.textContent = 'Contact'
-    contact.appendChild(contactHeading)
+    contactWrapper.appendChild(contactHeading)
+
+    const workingHoursHeading = document.createElement('h2')
+    workingHoursHeading.textContent = 'Working Hours'
+    contactWrapper.appendChild(workingHoursHeading)
 
     const contactInfo = document.createElement('div')
     contactInfo.className = '.contact-info'
-    contact.appendChild(contactInfo)
+    contactWrapper.appendChild(contactInfo)
 
     const emailHeading = document.createElement('h3')
     emailHeading.textContent = 'Email:'
@@ -33,7 +37,7 @@ const makeContact = function () {
     address.textContent = 'Ipsum Street 283g, 12700 Loremburg'
     contactInfo.appendChild(address)
 
-    const telephoneHeading = document.createElement('div')
+    const telephoneHeading = document.createElement('h3')
     telephoneHeading.textContent = 'Telephone:'
     contactInfo.appendChild(telephoneHeading)
 
@@ -41,7 +45,7 @@ const makeContact = function () {
     telNumber.textContent = '+381 11 LOREM IPSUM'
     contactInfo.appendChild(telNumber)
 
-    const workingHours = {
+    const schedule = {
         Monday: '11:00 - 23:00',
         Tuesday: '11:00 - 23:00',
         Wednesday: '11:00 - 23:00',
@@ -51,21 +55,17 @@ const makeContact = function () {
         Sunday: '11:00 - 23:00'
     }
 
-    const workingHoursHeading = document.createElement('h2')
-    workingHoursHeading.textContent = 'Working Hours'
-    contact.appendChild(workingHoursHeading)
-
     const workingHoursWrapper = document.createElement('div')
     workingHoursWrapper.className = 'working-hours-wrapper'
-    contact.appendChild(workingHoursWrapper)
+    contactWrapper.appendChild(workingHoursWrapper)
 
-    for (const day in workingHours) {
+    for (const day in schedule) {
         const weekday = document.createElement('h4')
         weekday.textContent = day
         workingHoursWrapper.appendChild(weekday)
 
         const workingHours = document.createElement('div')
-        workingHours.textContent = workingHours[day]
+        workingHours.textContent = schedule[day]
         workingHoursWrapper.appendChild(workingHours)
     }
 
