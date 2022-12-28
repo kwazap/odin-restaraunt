@@ -1,5 +1,6 @@
 import { makeHome } from "./home";
-
+import { makeContact } from "./contact"; 
+    
 function switchContent(initialSetting) {
     const main = document.querySelector('.main')
     const mainChild = document.querySelector('.main > *')
@@ -19,6 +20,10 @@ function switchContent(initialSetting) {
         case 'Home':
             const home = makeHome()
             main.appendChild(home)
+            break;
+        case 'Contact':
+            const contact = makeContact()
+            main.appendChild(contact)
             break;
     
         default:

@@ -71,3 +71,5 @@ const makeContact = function () {
 
     return contact
 }
+
+export { makeContact }

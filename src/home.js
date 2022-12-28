@@ -23,4 +23,4 @@ const makeHome = function () {
     return home
 }
 
-export {makeHome}
+export { makeHome }
