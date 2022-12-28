@@ -5,7 +5,7 @@ const makeMain = function () {
 
     const credits = document.createElement('div') 
     credits.className = 'credits'
-    content.appendChild(credits)
+    document.querySelector('body').appendChild(credits)
     
     const creditsLink = document.createElement('a')
     creditsLink.href = 'https://unsplash.com/@desertroseco'
