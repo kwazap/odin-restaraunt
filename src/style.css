@@ -117,3 +117,9 @@ img {
     margin-top: 24px;
     border-bottom: rgb(41, 41, 41) 3px dotted;
 }
+
+.menu-item-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
