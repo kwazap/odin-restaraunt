@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/cheese-and-wine.jpg */ \"./images/cheese-and-wine.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\\nbody, html {\\n    margin: 0;\\n    padding: 0;\\n    height: 100%;\\n    width: auto;\\n}\\n\\n.content {\\n    display: grid;\\n    grid-template-rows: 1fr 7fr;\\n    min-width: 100%;\\n    min-height: 100%;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n    background-repeat: no-repeat;\\n    background-size: cover;\\n    background-position: bottom;\\n    background-attachment: fixed;\\n}\\n\\n.header {\\n    background-color: rgba(0, 0, 0, 0.25);\\n    color: rgb(255, 247, 200);\\n    display: grid;\\n    letter-spacing: 1px;\\n    font-size: 1.6rem;\\n    grid-template-columns: 2fr 1fr;\\n    justify-items: center;\\n    align-items: center;\\n}\\n\\n.header button {\\n    border: none;\\n    background-color: rgba(0, 0, 0, 0);\\n    color: rgb(255, 247, 200);\\n    font-size: 1.5rem;\\n}\\n\\n.nav-wrapper {\\n    display: flex;\\n    width: min(100%, 300px);\\n    justify-content: space-around;\\n    margin-top: 48px;\\n}\\n\\n.header button:hover {\\n    text-decoration: underline;\\n}\\n\\n.credits {\\n    width: 100%;\\n    height: 20px;\\n    background-color: rgba(0, 0, 0, 0.25);\\n    color: rgb(255, 247, 200);\\n    text-align: center;\\n    position: fixed;\\n    bottom: 0;\\n}\\n\\n.credits a {\\n    text-decoration: none;\\n}\\n\\n.credits a:visited {\\n    color: rgb(255, 247, 200);\\n}\\n\\n.main {\\n    display: flex;\\n    align-items: center;\\n    justify-content: center;\\n}\\n\\n.home-container, .contact-container {\\n    margin: 8vh;\\n    height: 80%;\\n    width: 80%;\\n    background-color: rgba(0, 0, 0, 0.5);\\n    border-radius: 32px;\\n    font-size: 1.4rem;\\n}\\n\\n.home-wrapper, .contact-wrapper {\\n    margin: 32px;\\n    color: rgb(255, 247, 200);\\n}\\n\\n.home-wrapper h2 {\\n    color: rgb(255, 247, 200);\\n}\\n\\n.contact-wrapper {\\n    display: grid;\\n    grid-template-columns: 1fr 1fr;\\n    grid-template-rows: 1fr auto;\\n}\\n\\nh3, h4 {\\n    margin-bottom: 0;\\n}\\n\\nh4 {\\n    margin-top: 10px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-restaraunt/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./images/cheese-and-wine.jpg */ \"./src/images/cheese-and-wine.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\\nbody, html {\\n    margin: 0;\\n    padding: 0;\\n    height: 100%;\\n    width: auto;\\n}\\n\\n.content {\\n    display: grid;\\n    grid-template-rows: 1fr 7fr;\\n    min-width: 100%;\\n    min-height: 100%;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n    background-repeat: no-repeat;\\n    background-size: cover;\\n    background-position: bottom;\\n    background-attachment: fixed;\\n}\\n\\n.header {\\n    background-color: rgba(0, 0, 0, 0.25);\\n    color: rgb(255, 247, 200);\\n    display: grid;\\n    letter-spacing: 1px;\\n    font-size: 1.6rem;\\n    grid-template-columns: 2fr 1fr;\\n    justify-items: center;\\n    align-items: center;\\n}\\n\\n.header button {\\n    border: none;\\n    background-color: rgba(0, 0, 0, 0);\\n    color: rgb(255, 247, 200);\\n    font-size: 1.5rem;\\n}\\n\\n.nav-wrapper {\\n    display: flex;\\n    width: min(100%, 300px);\\n    justify-content: space-around;\\n    margin-top: 48px;\\n}\\n\\n.header button:hover {\\n    text-decoration: underline;\\n}\\n\\n.credits {\\n    width: 100%;\\n    height: 20px;\\n    background-color: rgba(0, 0, 0, 0.25);\\n    color: rgb(255, 247, 200);\\n    text-align: center;\\n    position: fixed;\\n    bottom: 0;\\n}\\n\\n.credits a {\\n    text-decoration: none;\\n}\\n\\n.credits a:visited {\\n    color: rgb(255, 247, 200);\\n}\\n\\n.main {\\n    display: flex;\\n    align-items: center;\\n    justify-content: center;\\n}\\n\\n.home-container, .contact-container, .menu-container {\\n    margin: 8vh;\\n    min-height: 80%;\\n    min-width: 80%;\\n    background-color: rgba(0, 0, 0, 0.5);\\n    border-radius: 32px;\\n    font-size: 1.4rem;\\n}\\n\\n.home-wrapper, .contact-wrapper, .menu-wrapper {\\n    margin: 32px;\\n    color: rgb(255, 247, 200);\\n}\\n\\n.home-wrapper h2 {\\n    color: rgb(255, 247, 200);\\n}\\n\\n.contact-wrapper {\\n    display: grid;\\n    grid-template-columns: 1fr 1fr;\\n    grid-template-rows: 1fr auto;\\n}\\n\\nh3, h4 {\\n    margin-bottom: 0;\\n}\\n\\nh4 {\\n    margin-top: 10px;\\n}\\n\\nimg {\\n    width: 128px;\\n    height: 128px;\\n    border:rgb(0, 0, 0) solid;\\n    border-radius: 8px;\\n}\\n\\n.menu-item {\\n    display: flex;\\n    gap: 24px;\\n    padding-bottom: 24px;\\n    margin-top: 24px;\\n    border-bottom: rgb(41, 41, 41) 3px dotted;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-restaraunt/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -180,23 +180,83 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"makeMenu\": () => (/* binding */ makeMenu)\n/* harmony export */ });\n/* harmony import */ var _images_camembert_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/camembert.jpg */ \"./src/images/camembert.jpg\");\n/* harmony import */ var _images_roquefort_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/roquefort.jpg */ \"./src/images/roquefort.jpg\");\n/* harmony import */ var _images_blu_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/blu.jpg */ \"./src/images/blu.jpg\");\n/* harmony import */ var _images_fondu_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/fondu.jpg */ \"./src/images/fondu.jpg\");\n/* harmony import */ var _images_grana_padano_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/grana-padano.jpg */ \"./src/images/grana-padano.jpg\");\n\n\n\n\n\n\nconst makeMenu = function () {\n    const menu = document.createElement('div')\n    menu.className = 'menu-container'\n\n    const menuWrapper = document.createElement('div')\n    menuWrapper.className = 'menu-wrapper'\n    menu.appendChild(menuWrapper)\n\n\n    const menuItems = {\n        Camembert: {\n            image: _images_camembert_jpg__WEBPACK_IMPORTED_MODULE_0__,\n            name: 'Camembert',\n            description: \"Ut suscipit elit vel tempor congue. Aliquam rhoncus, lorem a fringilla tempor, turpis nisl interdum augue, et sagittis urna tellus nec neque. In pulvinar sem at lectus tincidunt dapibus.\"\n        },\n        Roquefort: {\n            image: _images_roquefort_jpg__WEBPACK_IMPORTED_MODULE_1__,\n            name: 'Roquefort',\n            description: \"Vivamus ornare nisi a nisi varius, sed rutrum lectus viverra. Maecenas bibendum orci quis nunc gravida semper. Mauris interdum risus et maximus sodales. Vestibulum ultricies ex in tempor vestibulum. Ut sit amet turpis posuere, molestie dolor vel, rutrum lorem.\"\n        },\n        Blu: {\n            image: _images_blu_jpg__WEBPACK_IMPORTED_MODULE_2__,\n            name: 'Blu',\n            description: \"Nullam eget hendrerit eros. Morbi luctus bibendum enim, in dignissim magna tempus non. Fusce nibh lectus, sollicitudin sed lacinia in, sodales a neque. In vestibulum fermentum felis vitae finibus.\"\n        },\n        Fondu: {\n            image: _images_fondu_jpg__WEBPACK_IMPORTED_MODULE_3__,\n            name: 'Fondu',\n            description: \"Quisque vel commodo metus. Proin venenatis elementum sem vel feugiat. Fusce facilisis nisi a leo iaculis, id ultrices eros posuere.\"\n        },\n        GranaPadano: {\n            image: _images_grana_padano_jpg__WEBPACK_IMPORTED_MODULE_4__,\n            name: 'Grana Padano',\n            description: \"Nunc aliquam vehicula quam, a iaculis mauris suscipit fermentum. Pellentesque accumsan, urna ac commodo hendrerit, justo ipsum viverra justo, vel convallis quam sapien eu arcu.\"\n        },\n    }\n\n    for (const item in menuItems) {\n        const menuItemWrapper = document.createElement('div')\n        menuItemWrapper.className = 'menu-item'\n        menuWrapper.appendChild(menuItemWrapper)\n\n        const itemImage = new Image()\n        itemImage.src = menuItems[item].image\n        menuItemWrapper.appendChild(itemImage)\n\n        const textWrapper = document.createElement('div')\n        textWrapper.className = 'menu-item-text-wrapper'\n        menuItemWrapper.appendChild(textWrapper)\n\n        const itemName = document.createElement('h4')\n        itemName.textContent = menuItems[item].name\n        textWrapper.appendChild(itemName)\n\n        const itemDescription = document.createElement('div')\n        itemDescription.textContent = menuItems[item].description\n        textWrapper.appendChild(itemDescription)\n    }\n\n    return menu\n}\n\n\n\n//# sourceURL=webpack://odin-restaraunt/./src/menu.js?");
+
+/***/ }),
+
 /***/ "./src/switch.js":
 /*!***********************!*\
   !*** ./src/switch.js ***!
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"switchContent\": () => (/* binding */ switchContent)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n \n    \nfunction switchContent(initialSetting) {\n    const main = document.querySelector('.main')\n    const mainChild = document.querySelector('.main > *')\n\n    if (mainChild) {\n        mainChild.remove()\n    }\n\n    let setting\n    if (this) {\n        setting = this.textContent\n    } else {\n        setting = initialSetting\n    }\n    \n    switch (setting) {\n        case 'Home':\n            const home = (0,_home__WEBPACK_IMPORTED_MODULE_0__.makeHome)()\n            main.appendChild(home)\n            break;\n        case 'Contact':\n            const contact = (0,_contact__WEBPACK_IMPORTED_MODULE_1__.makeContact)()\n            main.appendChild(contact)\n            break;\n    \n        default:\n            break;\n    }\n}\n\n\n\n//# sourceURL=webpack://odin-restaraunt/./src/switch.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"switchContent\": () => (/* binding */ switchContent)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\n \n\n    \nfunction switchContent(initialSetting) {\n    const main = document.querySelector('.main')\n    const mainChild = document.querySelector('.main > *')\n\n    if (mainChild) {\n        mainChild.remove()\n    }\n\n    let setting\n    if (this) {\n        setting = this.textContent\n    } else {\n        setting = initialSetting\n    }\n    \n    switch (setting) {\n        case 'Home':\n            const home = (0,_home__WEBPACK_IMPORTED_MODULE_0__.makeHome)()\n            main.appendChild(home)\n            break;\n        case 'Contact':\n            const contact = (0,_contact__WEBPACK_IMPORTED_MODULE_1__.makeContact)()\n            main.appendChild(contact)\n            break;\n        case 'Menu':\n            const menu = (0,_menu__WEBPACK_IMPORTED_MODULE_2__.makeMenu)()\n            main.appendChild(menu)    \n        default:\n            break;\n    }\n}\n\n\n\n//# sourceURL=webpack://odin-restaraunt/./src/switch.js?");
 
 /***/ }),
 
-/***/ "./images/cheese-and-wine.jpg":
-/*!************************************!*\
-  !*** ./images/cheese-and-wine.jpg ***!
-  \************************************/
+/***/ "./src/images/blu.jpg":
+/*!****************************!*\
+  !*** ./src/images/blu.jpg ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"86d27426e386f4a66f2b.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt/./images/cheese-and-wine.jpg?");
+eval("module.exports = __webpack_require__.p + \"9f0af299d2d0d8535cec.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt/./src/images/blu.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/camembert.jpg":
+/*!**********************************!*\
+  !*** ./src/images/camembert.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a4e6590b43561364acb9.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt/./src/images/camembert.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/cheese-and-wine.jpg":
+/*!****************************************!*\
+  !*** ./src/images/cheese-and-wine.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"86d27426e386f4a66f2b.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt/./src/images/cheese-and-wine.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/fondu.jpg":
+/*!******************************!*\
+  !*** ./src/images/fondu.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a291e8006f02d2f7e5cc.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt/./src/images/fondu.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/grana-padano.jpg":
+/*!*************************************!*\
+  !*** ./src/images/grana-padano.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"90a98fc2ac168a7b6ab3.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt/./src/images/grana-padano.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/roquefort.jpg":
+/*!**********************************!*\
+  !*** ./src/images/roquefort.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"99c21b822ea240417f14.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt/./src/images/roquefort.jpg?");
 
 /***/ })
 

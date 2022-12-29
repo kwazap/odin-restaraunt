@@ -1,5 +1,6 @@
 import { makeHome } from "./home";
 import { makeContact } from "./contact"; 
+import { makeMenu } from "./menu";
     
 function switchContent(initialSetting) {
     const main = document.querySelector('.main')
@@ -25,7 +26,9 @@ function switchContent(initialSetting) {
             const contact = makeContact()
             main.appendChild(contact)
             break;
-    
+        case 'Menu':
+            const menu = makeMenu()
+            main.appendChild(menu)    
         default:
             break;
     }
